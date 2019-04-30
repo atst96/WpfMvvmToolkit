@@ -9,18 +9,21 @@
     <Import_RootNamespace>WpfMvvmToolkit</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)Command.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Command{T}.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)DelegateCommand.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)DelegateCommand{T}.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)IDisposableCommand.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)NotificationObject.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)ViewModelBase.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)WeakCollection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\Command.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\Command{T}.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\DelegateCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\DelegateCommand{T}.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\IDisposableCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\NotificationObject.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\ViewModelBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\WeakCollection.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="$(MSBuildThisFileDirectory).gitattributes" />
     <None Include="$(MSBuildThisFileDirectory).gitignore" />
     <None Include="$(MSBuildThisFileDirectory)LICENSE" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)src\" />
   </ItemGroup>
 </Project>
